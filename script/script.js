@@ -17,7 +17,7 @@ let period;
 console.log('period: ', period);
 
 alert('Lesson 1');
-
+console.log('Lesson 1  Завершен!');
 
 
 
