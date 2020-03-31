@@ -16,6 +16,9 @@ console.log('mission: ', mission);
 let period;
 console.log('period: ', period);
 
+alert('Lesson 1');
+
+
 
 
 
