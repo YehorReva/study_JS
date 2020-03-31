@@ -1,23 +1,19 @@
-let money;
-console.log('money: ', money);
+let money = 12000;
+let income = 'Фриланс';
+let addExpenses = 'Комуналка, Продукты, Интернет, Проезд, Одежда, Другое';
+let deposit = false;
+let mission = 50000;
+let period = 6;
 
-let income;
-console.log('income: ', income);
+console.log('money:', typeof money);
+console.log('income:', typeof income);
+console.log('addExpenses:', addExpenses.length);
+console.log('"Период равен' + ' ' + period + ' ' + 'месяцев" и "Цель заработать' + ' ' + mission + ' ' + 'гривен"');
+console.log('addExpenses:', addExpenses.toLowerCase().split(', '));
 
-let addExpenses;
-console.log('addExpenses: ', addExpenses);
+let budgetDay = (money / 30);
 
-let deposit;
-console.log('deposit: ', deposit);
-
-let mission;
-console.log('mission: ', mission);
-
-let period;
-console.log('period: ', period);
-
-alert('Lesson 1');
-console.log('Lesson 1  Завершен!');
+console.log('budgetDay: ', budgetDay);
 
 
 
